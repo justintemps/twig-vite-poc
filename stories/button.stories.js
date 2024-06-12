@@ -1,4 +1,7 @@
 import Button from "../components/button/button.twig";
+import "@ilo-org/styles/css/components/button.css";
+import "@ilo-org/styles/css/components/icon.css";
+import "../components/icon/icon.behavior";
 
 export default {
   title: "Components/Button",
@@ -12,11 +15,18 @@ export default {
       options: ["primary", "secondary", "tertiary"],
     },
   },
-  // Just pass along the imported variable.
   component: Button,
 };
 
-// Set default variables in the story.
 export const Default = {
-  args: { prefix: "ilo", name: "Click me", label: "Click me" },
+  args: {
+    prefix: "ilo",
+    name: "Click this",
+    label: "Click this",
+    type: "primary",
+    url: "https://www.ilo.org",
+    iconPosition: "left",
+    size: "large",
+    icon: { prefix: "ilo", name: "add", size: 24, color: "black" },
+  },
 };

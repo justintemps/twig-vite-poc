@@ -22,5 +22,10 @@
     "@storybook/test": "^8.1.6",
     "storybook": "^8.1.6",
     "vite-plugin-twig-drupal": "^1.3.0"
+  },
+  "dependencies": {
+    "@ilo-org/fonts": "^0.2.2",
+    "@ilo-org/icons": "^0.4.0",
+    "@ilo-org/styles": "^1.0.8"
   }
 }

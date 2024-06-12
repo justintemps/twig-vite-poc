@@ -1,4 +1,4 @@
-{# BUTTON COMPONENT #}
+
 {% if url %}
 	<a class="{{prefix}}--button ilo--button--{{size}} {{prefix}}--button--{{type}}{% if icon %} icon icon__position--{{iconPosition}}{% endif %}{% if icononly %} icon--only{% endif %}{% if className %} {{className}}{% endif %}" href="{{url}}" {% if target %} target="{{target}}" rel="noopener noreferrer"{% endif %}{{ disabled ? ' disabled' }}>
 		<span class="link__label">{{label}}</span>
