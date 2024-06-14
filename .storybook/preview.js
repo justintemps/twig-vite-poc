@@ -1,3 +1,5 @@
+import "@ilo-org/styles/css/index.css";
+
 export const decorators = [
   (storyFn) => {
     const observer = new MutationObserver((mutationsList, observer) => {
