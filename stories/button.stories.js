@@ -1,7 +1,4 @@
-import Button from "../components/button/button.twig";
-import "@ilo-org/styles/css/components/button.css";
-import "@ilo-org/styles/css/components/icon.css";
-import "../components/icon/icon.behavior";
+import { component } from "../components/button";
 
 export default {
   title: "Components/Button",
@@ -15,7 +12,7 @@ export default {
       options: ["primary", "secondary", "tertiary"],
     },
   },
-  component: Button,
+  component,
 };
 
 export const Default = {
